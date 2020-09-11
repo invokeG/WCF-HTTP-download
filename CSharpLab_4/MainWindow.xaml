@@ -1,0 +1,23 @@
+﻿<Window x:Class="CSharpLab_4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CSharpLab_4"
+        mc:Ignorable="d"
+        Title="1824100163 高政宏" Height="450" Width="800">
+    <Grid>
+        <GroupBox Header="请选择可下载的文件" HorizontalAlignment="Left" Height="146" Margin="10,10,0,0" VerticalAlignment="Top" Width="774"/>
+        <Canvas HorizontalAlignment="Left" Height="146" Margin="10,10,0,0" VerticalAlignment="Top" Width="774">
+            <ListBox Name="listbox" HorizontalAlignment="Left" Height="113" VerticalAlignment="Top" Width="754" Canvas.Left="10" Canvas.Top="23"/>
+        </Canvas>
+        <Button Name="button" Content="开始下载" HorizontalAlignment="Left" Margin="327,181,0,0" VerticalAlignment="Top" Width="122" Height="24" Click="button_Click"/>
+        <GroupBox Header="下载信息" HorizontalAlignment="Left" Height="165" Margin="10,245,0,0" VerticalAlignment="Top" Width="774">
+            <Canvas HorizontalAlignment="Left" Height="131" Margin="0,10,-1.6,0" VerticalAlignment="Top" Width="764">
+                <TextBlock Name="tb1" Canvas.Left="10" TextWrapping="Wrap" Text="" Canvas.Top="10" Height="37" Width="744"/>
+                <TextBlock Name="tb2" Canvas.Left="10" TextWrapping="Wrap" Text="" Canvas.Top="67" Height="54" Width="744"/>
+            </Canvas>
+        </GroupBox>
+
+    </Grid>
+</Window>
